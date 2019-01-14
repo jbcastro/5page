@@ -1,0 +1,281 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: "Bitstream Vera Serif Bold";
+
+}
+
+body {
+    font-size: 100%;
+    margin:0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    top:0;
+    left:0;
+    background: rgba(255, 255, 255, .92);
+   z-index: 1;
+    
+    
+}
+
+#logo {
+    width: 150px;
+    margin: 20px auto;
+    display: block;
+    
+}
+
+
+.wrapper {
+    width:940px;
+    margin:0 auto;
+    
+}
+
+
+
+nav {
+    height:50px;
+    line-height: 50px;
+    background: brown;
+    text-transform: uppercase;
+    position: sticky;
+    position: -webkit-sticky;
+    top:0;
+    z-index: 10;
+     
+    
+ }
+.nav {
+    width: 82%;
+    display: block;
+    margin: 0 auto; 
+    padding: 0;
+    max-width: 1150px;
+}
+.nav ul {
+    width: 70%;
+    margin:0 auto;
+}
+
+.nav li {
+    float: left;
+    list-style-type: none;
+    width: 20%;
+    text-align: center;
+    position: relative
+}
+
+.nav .button-dropdown {
+    position: relative;
+}
+.nav a {
+    text-decoration: none;
+    color:#fff;
+    display:block;
+}
+
+.nav li a {
+    display: block;
+    color: #ddd;
+    background-color: brown;
+    text-decoration: none;
+}
+
+.nav li a span {
+    display: inline-block;
+    margin-left: 5px;
+    color: #999;
+}
+
+
+.nav li a:hover, .nav li ul.dropdown-toggle.active {
+    background-color: #5f0000;
+    color: #fff;
+}
+
+
+
+.nav li a:hover span, .nav li a.dropdown-toggle.active span {
+    color: #fff;
+}
+
+
+.nav li .dropdown-menu {
+    display: none;
+    position: absolute;
+    left: 0;
+    padding: 0;
+    margin: 0;
+    margin-top: 3px;
+    text-align: left;
+    height: 0px;
+    background: brown;
+}
+.nav li .dropdown-menu li{
+    float: none;
+    
+}
+
+.nav li .dropdown-menu.active {
+    display: block;
+}
+
+
+
+.nav li .dropdown-menu a {
+    width: 200px;
+    
+}
+
+
+.home .nav > li:nth-child(1) a,
+.about .nav > li:nth-child(2) a,
+.dogs .nav > li:nth-child(3) a
+{
+    background: red;
+    color: #fff;
+}
+
+
+main {
+    width:580px;
+    float: left;
+    margin-top: 20px;
+    
+}
+
+
+aside {
+    width:340px;
+    float: right;
+    border: 1px solid #666;
+    margin-top: 20px;
+    padding:10px;
+}
+
+.contact aside {
+    padding:0;
+    border: none;
+   
+}
+
+figcaption {
+    background: tan;
+    padding: 10px;
+    font-size: .875em;
+    font-style: italic;
+}
+
+footer {
+    padding-top: 20px;
+    background-color: gray;
+    clear: both;
+    overflow: hidden;
+}
+
+.third ul {
+    float: left;
+    padding-bottom: 20px;
+    margin: 0 0 20px 20px;
+    width: 300px;
+}
+
+
+.third li {
+    list-style-type: none;
+    font-size: .85em; 
+    padding: 10px;
+}
+
+ .third form {
+margin: 0 20px 20px 0;
+    float: right;
+    
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/*++++++++Form+++++++++*/
+
+
+fieldset {
+    padding: 10px;
+   
+}
+label {
+    display: block;
+    margin-bottom: 6px;
+}
+
+input {
+    display: block;
+    width: 100%;
+    height: 25px;
+    margin-bottom: 10px;
+        
+}
+
+input[type=submit] {
+    width:auto;
+}
+
+textarea {
+    width:100%;
+    height:20px;
+/*    resize: none;*/
+    margin-bottom: 10px;
+}
+
+
+
+
+/*++++++++TYPOGRAPHY+++++++++*/
+
+
+@font-face {
+  font-family: "Bitstream Vera Serif Bold";
+      src: url("https://mdn.mozillademos.org/files/2468/VeraSeBd.ttf");
+  }
+
+
+h1 {
+    font-size: 2.369em;
+    margin-bottom: 8px;
+    
+    
+}
+
+h2 {
+    font-size:1.777em ;
+    margin-bottom: 8px;
+    font-weight: 200;
+    
+}
+
+h3 {
+    font-size:1.333em ;
+    margin-bottom: 8px;
+}
+
+
+p {
+    margin-bottom: 1em;
+    line-height: 1.5;
+    
+}
+
+main p {
+    font-weight: lighter;
+    text-indent: 50px;
+}
+aside p {
+    font-size: .75em;
+}
